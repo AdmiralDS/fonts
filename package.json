@@ -1,4 +1,5 @@
 {
+  "name": "@admiral-ds/fonts",
   "version": "1.0.0",
   "author": "AdmiralDS team",
   "license": "See license in ./LICENSE",
@@ -12,5 +13,8 @@
   ],
   "scripts": {},
   "peerDependencies": {},
-  "devDependencies": {}
+  "devDependencies": {},
+  "publishConfig": {
+    "access": "public"
+  }
 }
