@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "author": "AdmiralDS team",
+  "license": "See license in ./LICENSE",
+  "files": [
+    "VTBGroupUI-Bold",
+    "VTBGroupUI-DemiBold",
+    "VTBGroupUI-Light",
+    "VTBGroupUI-Medium",
+    "VTBGroupUI-Regular",
+    "VTBGroupUI-SemiBold"
+  ],
+  "scripts": {},
+  "peerDependencies": {},
+  "devDependencies": {}
+}
