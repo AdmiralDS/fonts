@@ -1,11 +1,15 @@
 @font-face {
     font-family: "VTB Group UI";
-    src: url("./VTBGroupUI-Medium/VTBGroupUI-Medium.eot");
-    src: url("./VTBGroupUI-Medium/VTBGroupUI-Medium.eot?#iefix") format("embedded-opentype"),
-      url("./VTBGroupUI-Medium/VTBGroupUI-Medium.woff2") format("woff2"),
-      url("./VTBGroupUI-Medium/VTBGroupUI-Medium.woff") format("woff"),
-      url("./VTBGroupUI-Medium/VTBGroupUI-Medium.ttf") format("truetype"),
-      url("./VTBGroupUI-Medium/VTBGroupUI-Medium.svg#VTBGroupUIWeb-Book") format("svg");
+    src: url("./VTBGroupUI-SemiBold.ttf") format("truetype");
+    font-display: swap;
+    font-weight: 550;
+    font-style: normal;
+    font-feature-settings: "tnum" on, "lnum" on, "cv03" on, "cv04" on;
+}
+
+@font-face {
+    font-family: "VTB Group UI";
+    src: url("./VTBGroupUI-Medium.otf") format("opentype");
     font-display: swap;
     font-weight: 500;
     font-style: normal;
@@ -14,14 +18,9 @@
 
 @font-face {
     font-family: "VTB Group UI";
-    src: url("./VTBGroupUI-Regular/VTBGroupUI-Regular.eot");
-    src: url("./VTBGroupUI-Regular/VTBGroupUI-Regular.eot?#iefix") format("embedded-opentype"),
-      url("./VTBGroupUI-Regular/VTBGroupUI-Regular.woff2") format("woff2"),
-      url("./VTBGroupUI-Regular/VTBGroupUI-Regular.woff") format("woff"),
-      url("./VTBGroupUI-Regular/VTBGroupUI-Regular.ttf") format("truetype"),
-      url("./VTBGroupUI-Regular/VTBGroupUI-Regular.svg#VTBGroupUIWeb-Book") format("svg");
+    src: url("./VTBGroupUI-Regular.otf") format("opentype");
     font-display: swap;
-    font-weight: normal;
+    font-weight: 400;
     font-style: normal;
     font-feature-settings: "tnum" on, "lnum" on, "cv03" on, "cv04" on;
 }
